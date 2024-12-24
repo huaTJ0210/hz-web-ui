@@ -1,0 +1,21 @@
+{
+	"name": "@htj24/utils",
+	"private": "false",
+	"version": "1.0.0",
+	"description": "基础工具类库",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"unpkg": "./dist/index.global.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "vite build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

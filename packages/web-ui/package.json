@@ -1,0 +1,22 @@
+{
+  "name": "@htj24/web-ui",
+  "private": "false",
+  "version": "1.0.0",
+  "description": "web-ui",
+  "main": "index.ts",
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/lib/index.js",
+    "module": "dist/es/index.js"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@htj24/utils": "workspace:^"
+  }
+}

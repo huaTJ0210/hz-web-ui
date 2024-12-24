@@ -1,0 +1,23 @@
+{
+	"name": "cli",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"create": "ts-node ./index.ts create"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/inquirer": "8.2.5",
+		"@types/shelljs": "^0.8.15",
+		"chalk": "4.1.2",
+		"commander": "^11.1.0",
+		"inquirer": "8.2.5",
+		"log-symbols": "4.1.0",
+		"ora": "5.4.1",
+		"shelljs": "^0.8.5",
+		"ts-node": "^10.9.1"
+	}
+}

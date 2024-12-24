@@ -1,0 +1,29 @@
+{
+	"name": "hz-web-ui",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"test": "pnpm --filter app run dev",
+		"c": "pnpm --filter cli run create",
+		"preview": "pnpm --filter docs run dev",
+		"build:ui": "pnpm --filter web-ui run build",
+		"build:utils": "pnpm --filter utils run build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"vue": "^3.3.9"
+	},
+	"devDependencies": {
+		"@htj24/eslint-config": "workspace:^",
+		"@vitejs/plugin-vue": "^4.5.0",
+		"@vue/test-utils": "^2.4.3",
+		"sass": "^1.69.5",
+		"typescript": "^5.3.2",
+		"vite": "^5.0.3",
+		"vite-plugin-dts": "^3.6.3",
+		"vitest": "^0.34.6"
+	}
+}
