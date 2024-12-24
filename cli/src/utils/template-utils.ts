@@ -95,7 +95,8 @@ export const scssTemplate = (lineNameWithPrefix: string): string => {
 
 export const mdTemplate = (componentInfo: ComponentInfo) => {
 	return `
-# ${componentInfo.upCamelName} ${componentInfo.zhName}
+# ${componentInfo.upCamelName} 
+> ${componentInfo.zhName}
 
 ## 基本使用
 
